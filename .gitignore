@@ -1,0 +1,5 @@
+# Ignore all JAR files
+*.jar
+
+# Ignore the crx-quickstart data directory
+crx-quickstart/ 

@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  author:
+    build: .
+    ports:
+      - "4503:4503"
+    volumes:
+      - ./crx-quickstart:/usr/src/app/crx-quickstart
+      - ./license.properties:/usr/src/app/license.properties 
