@@ -2,4 +2,7 @@
 *.jar
 
 # Ignore the crx-quickstart directory
-crx-quickstart/ 
+crx-quickstart/
+
+# Ignore license.properties
+license.properties 
